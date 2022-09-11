@@ -6,8 +6,8 @@
     box-sizing: border-box;
   }
   body {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: rgba(226, 154, 21, 0.567);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(77, 192, 240);
   }
   .navbar{   
       background-color: lightblue;
@@ -37,13 +37,47 @@
       color: rgba(128, 128, 128, 0.766) !important; 
   }
   .content{
-      padding-top: 100px;
       display: flex;
   }
   .side-menu{
-      background-color: lightseagreen ;
-      padding: 40px;
+      background-color: rgba(251, 153, 87, 0.933) ;
+      line-height: 5ch;
   }
   .information{ 
       padding: 30px;
+  }
+  .ppd{
+    line-height: 25px;
+  }
+  .summary{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .subjects{
+    list-style: circle;
+  }
+  
+  .course-overview{
+    background-color: beige;
+    padding: 15px;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 25px;
+    font-size:medium; 
+    border-style: double;
+  }
+  .box{ 
+    width: 200px;
+    margin:100px auto;
+    background-color: rgb(67, 225, 230);
+    border: radius 7px;
+  }
+  .box.title{ 
+    background-color: beige;
+    padding: 10px;
+    text-align: center;
+  }
+  footer{
+    background-color: rgba(211, 211, 211, 0.811);
+    padding:30px;
   }
