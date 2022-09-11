@@ -7,7 +7,7 @@
   }
   body {
     font-family:Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(77, 192, 240);
+    background-color: rgb(153, 224, 255);
   }
   .navbar{   
       background-color: lightblue;
@@ -40,7 +40,7 @@
       display: flex;
   }
   .side-menu{
-      background-color: rgba(251, 153, 87, 0.933) ;
+      background-color: rgba(253, 174, 125, 0.933) ;
       line-height: 5ch;
   }
   .information{ 
@@ -66,16 +66,16 @@
     font-size:medium; 
     border-style: double;
   }
-  .box{ 
-    width: 200px;
-    margin:100px auto;
-    background-color: rgb(67, 225, 230);
-    border: radius 7px;
-  }
-  .box.title{ 
-    background-color: beige;
-    padding: 10px;
-    text-align: center;
+  .accordion{
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+    cursor:pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border:none;
+    outline: none;
+    transition: 0.4s;
   }
   footer{
     background-color: rgba(211, 211, 211, 0.811);
