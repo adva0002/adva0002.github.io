@@ -37,11 +37,13 @@
       color: rgba(128, 128, 128, 0.766) !important; 
   }
   .content{
-      /* display: flex; */
+      display: flex;
   }
   .side-menu{
       background-color: rgba(253, 174, 125, 0.933) ;
       line-height: 5ch;
+      max-width: 40vh;
+      border-radius: 20px;
   }
   .information{ 
       padding: 30px;
@@ -68,6 +70,16 @@
     /* border-style: double; */
   }
 
+  .ict-image{
+    width: 20cm;
+    height: 30cm;
+  }
+
+  .work-image{
+    width: 175px;
+    height: 150px;
+  }
+
   .accordion{
     font-family:'Times New Roman', Times, serif;
     font-size: medium;
@@ -91,33 +103,27 @@ td {
 }
 
 tr:nth-child(even) {
-background-color: rgb(138, 236, 255);
+background-color: rgb(255, 140, 87);
 }
 
 tr:nth-child(odd) {
-    background-color: lightgray;
+    background-color: white;
 }
 
 th[scope="col"] {
   background-color: #696969;
-  color: #fff;
+  color: rgb(255, 140, 140);
 }
 
 th[scope="row"] {
-  background-color: #d7d9f2;
-}
-
-caption {
-    padding: 10px;
-    caption-side: bottom;
-
+  background-color: #7c85fd;
 }
 
 table {
   border-collapse: collapse;
   border: 2px solid black;
   letter-spacing: 1px;
-  font-family: sans-serif;
+  font-family:'Times New Roman', Times, serif;
   font-size: 1rem;
   margin: 1%;
 }
