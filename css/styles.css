@@ -14,6 +14,8 @@
       display: flex;
       justify-content: space-around;
       width: 100%;
+      position: fixed;
+      top: 0;
   }
   .navigation-logo{
       width: 70px;
@@ -38,26 +40,81 @@
   }
   .content{
       display: flex;
+      justify-content: space-between;
+      margin-top: 70px;
   }
   .side-menu{
-      background-color: rgba(253, 174, 125, 0.933) ;
-      line-height: 5ch;
-      max-width: 40vh;
+      background-color: lightgreen;
+      margin-top: 20px;
+      width: 20%;
+      height: 50vh;
       border-radius: 20px;
   }
-  .information{ 
-      padding: 30px;
+  .side-menu li{
+      list-style: none;
+      padding: 30px 0px 0px 20px;
+      padding-top: 30px;
   }
+  .side-menu li a{
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+  }
+
+  .images{
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .ict-image{
+    height: 50vh;
+    margin-right: 20px;
+  }
+
+  .work-ict{
+    height: 50vh;
+  }
+
+  .information{ 
+      padding: 30px 0 0px 0px;
+  }
+  .information h1{
+      text-align: center;
+      padding-bottom: 20px;
+      font-size: 35px;
+      color: rgba(255, 255, 255, 0.915);
+  }
+  .information  p{
+    line-height: 20px;
+  }
+
   .ppd{
     line-height: 25px;
   }
+
   .summary{
-    margin-left: auto;
-    margin-right: auto;
+    width: 70%;
+    padding-right: 50px;
   }
 
+.summary h1{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 35px;
+  color:rgba(255, 255, 255, 0.915);
+  }
+
+.summary h2{
+  padding-top: 20px;
+  color:rgba(255, 255, 255, 0.915);
+}
+
+.summary ul{
+  list-style: circle;
+}
+
   .subjects{
-    list-style: circle;
+    list-style:circle;
   }
   
   .course-overview{
@@ -68,28 +125,6 @@
     margin: 25px;
     font-size:medium; 
     /* border-style: double; */
-  }
-
-  .ict-image{
-    width: 20cm;
-    height: 30cm;
-  }
-
-  .work-image{
-    width: 175px;
-    height: 150px;
-  }
-
-  .accordion{
-    font-family:'Times New Roman', Times, serif;
-    font-size: medium;
-    cursor:pointer;
-    padding: 18px;
-    width: 100%;
-    text-align: left;
-    border:none;
-    outline: none;
-    transition: 0.4s;
   }
 /* ---- table design ---- */
 
@@ -112,8 +147,7 @@ tr:nth-child(odd) {
 
 th[scope="col"] {
   background-color: #696969;
-  color: rgb(255, 140, 140);
-}
+  
 
 th[scope="row"] {
   background-color: #7c85fd;
@@ -128,7 +162,7 @@ table {
   margin: 1%;
 }
 
-  footer{
-    background-color: rgba(211, 211, 211, 0.811);
-    padding:30px;
+footer{
+    background-color: white;
+    padding: 50px;
   }
