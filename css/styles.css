@@ -116,14 +116,31 @@
   .subjects{
     list-style:circle;
   }
-  
+
+  .beach{
+    padding-top: 30px;
+  }
+
+  section h1{
+    margin: 50px auto;
+    text-align: center;
+    font-size: 35px;
+    color: rgba(255, 255, 255, 0.915)
+  }
+.faqs{
+  margin-right: 240px;
+}
   .course-overview{
+    margin: 50px 30px 20px 10px;
     background-color: beige;
     padding: 15px;
     text-align: center;
-    border-collapse: collapse;
-    margin: 25px;
     font-size:medium; 
+    border-collapse: collapse;
+    border: 2px solid black;
+    letter-spacing: 1px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1rem;
     /* border-style: double; */
   }
 /* ---- table design ---- */
@@ -152,17 +169,3 @@ th[scope="col"] {
 th[scope="row"] {
   background-color: #7c85fd;
 }
-
-table {
-  border-collapse: collapse;
-  border: 2px solid black;
-  letter-spacing: 1px;
-  font-family:'Times New Roman', Times, serif;
-  font-size: 1rem;
-  margin: 1%;
-}
-
-footer{
-    background-color: white;
-    padding: 50px;
-  }
