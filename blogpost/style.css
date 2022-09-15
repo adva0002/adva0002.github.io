@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(153, 224, 255);
+  }
+
+  .choice h1{
+    padding-top: 50px;
+    text-align:center;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 35px;
+  }
+
+  .research{
+    text-align: center;
+    font-size:25px;
+  }
+.study{
+    text-align: center;
+    line height: 25px;
+    font-size:25px;
+}
+.completion{
+text-align: center;
+font-size:25px;
+}
+
+.swot{
+    margin: 70px;
+}
+.swot h1{ text-align:center;
+    padding-top: 50px;
+    line-height: 50px;
+    font-size:35px;
+}
+
+.swot p{
+    text-align:center;
+    line-height:45px;
+}
+
+.experience{
+    margin right: 50px;
+}
+
+.experience h1{
+    text-align:center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-size:35px;
+}
+
+.questions{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin:60px;
+    line-height: 40px;
+    font-size: 25px;
+}
+
+.feedback{
+    margin:50px;
+}
+.feedback h1{
+    text-align:center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-size:35px;
+}
+
+.feedback p{
+    text-align:justify;
+    line-height:30px;
+    font-size:25px;
+}
+.professions{
+    margin:auto;
+    padding-top: 30px;
+}
+.professions h1{
+    line-height:54px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.professions p{
+    text-align:center;
+    font-size:25px;
+}
+
