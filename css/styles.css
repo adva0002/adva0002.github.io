@@ -6,9 +6,10 @@
     /* box-sizing: border-box; */
   }
   body {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(153, 224, 255);
   }
+  /* This is the top part of the home page, with the navbar */
   .navbar{   
       background-color: lightblue;
       display: flex;
@@ -43,12 +44,13 @@
       justify-content: space-between;
       margin-top: 70px;
   }
+  /* This is the aside menu */
   .side-menu{
-      background-color: lightgreen;
+      background-color: rgb(82, 208, 202);
       margin-top: 20px;
       width: 20%;
       height: 50vh;
-      border-radius: 20px;
+      border-radius: 15px;
   }
   .side-menu li{
       list-style: none;
@@ -61,6 +63,7 @@
     text-decoration: underline;
   }
 
+  /* The pictures here are for the home page only */
   .images{
     display: flex;
     margin-top: 20px;
@@ -82,7 +85,7 @@
       text-align: center;
       padding-bottom: 20px;
       font-size: 35px;
-      color: rgba(255, 255, 255, 0.915);
+      color: gray;
   }
   .information  p{
     line-height: 20px;
@@ -92,6 +95,7 @@
     line-height: 25px;
   }
 
+  /* This is for the profile page design */
   .summary{
     width: 70%;
     padding-right: 50px;
@@ -101,12 +105,12 @@
   text-align: center;
   padding-top: 20px;
   font-size: 35px;
-  color:rgba(255, 255, 255, 0.915);
+  color:gray;
   }
 
 .summary h2{
   padding-top: 20px;
-  color:rgba(255, 255, 255, 0.915);
+  color: gray;
 }
 
 .summary ul{
@@ -125,10 +129,10 @@
     margin: 50px auto;
     text-align: center;
     font-size: 35px;
-    color: rgba(255, 255, 255, 0.915)
+    color:gray;
   }
 .faqs{
-  margin-right: 240px;
+  margin-right: 250px;
 }
   .course-overview{
     margin: 50px 30px 20px 10px;
@@ -155,17 +159,9 @@ td {
 }
 
 tr:nth-child(even) {
-background-color: rgb(255, 140, 87);
+background-color: lightgray;
 }
 
 tr:nth-child(odd) {
-    background-color: white;
-}
-
-th[scope="col"] {
-  background-color: #696969;
-  
-
-th[scope="row"] {
-  background-color: #7c85fd;
+    background-color: lightgray;
 }
